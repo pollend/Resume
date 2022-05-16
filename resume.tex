@@ -41,7 +41,7 @@
 % \definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{true}
+\setbool{acvSectionColorHighlight}{false}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -56,13 +56,13 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{profile}
-\name{Michael}{Pollind}
-\position{Computer Science{\enskip\cdotp\enskip}Software Engineer}
+\name{Michael Pollind}{}
+\position{Computational Sciences{\enskip\cdotp\enskip}Software Engineer}
 % \address{246-1002, Gwangmyeongmayrouge Apt. 86, Cheongna lime-ro, Seo-gu, Incheon-si, 404-180, Rep. of KOREA}
 
 \mobile{(+1) 714-342-9460}
 \email{polli104@mail.chapman.edu}
-\homepage{https://michaelpollind.com/}
+% \homepage{michaelpollind.com}
 \github{pollend}
 \linkedin{michaelpollind}
 % \gitlab{gitlab-id}
@@ -86,7 +86,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Résumé}
+  {Michael L. Pollind~~~·~~~Résumé}
   {\thepage}
 
 
@@ -94,7 +94,8 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-% \input{resume/summary.tex}
+
+\input{resume/summary.tex}
 \input{resume/education.tex}
 \input{resume/experience.tex}
 % \input{resume/honors.tex}
@@ -102,8 +103,8 @@
 % \input{resume/writing.tex}
 % \input{resume/committees.tex}
 \input{resume/projects.tex}
+\input{resume/organizations.tex}
 % \input{resume/extracurricular.tex}
-% \input{resume/language_frameworks.tex}
-
+\input{resume/language_frameworks.tex}
 %-------------------------------------------------------------------------------
 \end{document}
