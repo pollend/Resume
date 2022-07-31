@@ -10,17 +10,46 @@
 \begin{cventries}
 %---------------------------------------------------------
 
+\cventry
+{Masimo} % Job title
+{Software Engineer} % Organization
+{Irvine, California} % Location
+{Oct 2020 - Present} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item{Designed and developed GUI in C++ and QML for multi-parameter bedside monitoring device.}
+      \item{Worked with a legacy codebase without any existing tests, so changes had to minimally impact existing code.}
+      \item{Developed a remote tool to interact with the device for test automation. Replaced an existing tool that was too difficult to use. }
+      \item{Developed a Groovy tool that takes bitmaps and a config file to produce c code because device did not have a filesystem.}
+      % \item{Delivered new software on time for demonstration at Arab Health Conference.}
+      \item{Improved performance navigating menus using C++ model to avoid overhead of parsing javscript ListModel.}
+      % \item{Worked on a feature to help physicians diagnose Critical Congenital Heart Disease (CCHD).}
+  \end{cvitems}
+}
+
+  \cventry
+  {O3DE Foundation} % Job title
+  {O3DE Maintainer} % Organization
+  {} % Location
+  {Jun 2022 - Present} % Date(s)
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item{Studied the source code and started to submit patches to resolve usability problems.}
+      \item{Added Linux support for Whitebox module and added translation manipulator mode.}
+      \item{Removed old OpenGL view from EmotionFX module and any utilities associated with that view.}
+      \item{Reviewed pull requests to the engine and made comments to improve software quality.}
+    \end{cvitems}
+  }
 
     \cventry
-    {Google Summer of Code (summerofcode.withgoogle.com/projects/\#4936164055711744)} % Job title
+    {Google Summer of Code} % Job title
     {Google Summer of Code} % Organization
     {} % Location
     {Feb 2020 - Apr 2020} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-         \item{Worked with student to develop a Tutorial site for Terasology}
-         \item{Reviewed code and made suggestions on best practices and recommend tools to used}
-         \item{Site was developed with React, Javascript, and Sass}
+         \item{Mentored a student in developing a Tutorial site for Terasology.}
+         \item{Reviewed code and made suggestions on best practices and recommended tools to use.}
       \end{cvitems}
     }
     
@@ -32,9 +61,11 @@
     {Feb 2020 - Apr 2020} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-         \item{Developed mobile application in React Native}
-         \item{Developed GraphQL interface follow relay specification along with interface to render on mobile application}
-         \item{Developed Graph Plotting library using React Native SVG}
+         \item {Worked on prototype application that let a physician make referrals on behalf of the patient.}
+        %  \item {Learned React Native to become productive.}
+        %  \item{Developed mobile application in React Native}
+         \item{Developed React Native application with GraphQL interface following relay specification}
+        %  \item{Developed Graph Plotting library using React Native SVG}
       \end{cvitems}
     }
     
@@ -43,12 +74,13 @@
     \cventry
     {Panasonic Avionics} % Job title
     {Software Developer} % Organization
-    {Lake Forest, California} % Location
+    {Irvine, California} % Location
     {Nov 2017 - Jul 2019} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-         \item{Maintained QML for IFE system.}
-         \item{Maintained code developed for android for playing media for inflight entertainment.} 
+        %  \item{Maintained QML for inflight entertainment system.}
+         \item{Maintained code developed for android for playing media for InFlight entertainment.} 
+         \item{Built temporary CI system to produce build artifacts.} 
          \item{Resolved performance problems with QML due to problem with how styling is applied.} 
       \end{cvitems}
     }
@@ -62,12 +94,12 @@
     {Nov 2017 - Jul 2019} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-      \item{Made a prototype sensor with feedback using an Arduino to help children who walk on their toes.Patients improved after use of the device and were verified separately. Improved prototype with Custom board designed in kicad around an ATMEGA, IMU and SD card.  }
+      \item{Made a prototype sensor with feedback using an Arduino to help children who walk on their toes. Patients improved after use of the device and were verified separately. Improved prototype with Custom board designed in kicad around an ATMEGA, IMU and SD card.  }
       \item{Developed an Ardunio based board for patients suffering from bed sores. The device has a small counter and alerts patients every two hours. Patients wore the sensor for three days and the data from the sensor was saved to an external SD card.}
-      \item{Improved bed sore prototype with a second revision built around an nrf52, a system on chip ARM cortex-m4 with bluetooth. The new prototype provides feedback to the patient from a mobile device. Used Zephyr, an RTOS system, that offers better portability and stability over a bare Arduino kernel.}
+      \item{Improved bed sore prototype with a second revision built around an nrf52, a system on chip ARM cortex-m4 with Bluetooth. The new prototype provides feedback to the patient from a mobile device. Used Zephyr, an RTOS system, that offers better portability and stability over a bare Arduino kernel.}
     %   \item{Designed and assembled embedded devices to help patients with idiopathic toe walking and bed sores}
     %   \item{Implemented custom C++ firmware for I/O and dataprocessing.}
-      \item{Designed Circuit boards in KiCad around an ATMEGA328 micro-controller that interfaced with components such as an  ICM-20948 (IMU), LCD display, and SD card. Assembled boards by or ordered the final boards through a fabrication facility.}
+      \item{Designed Circuit boards in KiCad around an ATMEGA328 microcontroller that interfaced with components such as an  ICM-20948 (IMU), LCD, and SD card. Assembled boards by or ordered the final boards through a fabrication facility.}
     %   \item{Ordered components and board from a fab facility and assembled by hand using a hotplate}
     %   \item{Designed a QT desktop application utility for converting binary data collected on the SD card to CSV.}
     %   \item{}
@@ -94,7 +126,7 @@
         \item{Developed additional core modules to the core game play including ItemPipes and Rails. Rails was a rework of an older module and introduced an impulse constraint solver for more realistic collision. Itempipes allows for items to be transported through a network of pipes. Other module developers can take advantage of these base modules for a more cohesive play experience. }
         % \item{Rails add support for cart transport; A custom imuplse constraint solver was used to get semi-realistic collisions.}
         % \item{ItemPipes allows for items to be transported around the game world.}
-        \item{Improved functionality of block families which stores a family of blocks for a for a single block and provides logic that pickes the block out from the family when placed or updated.}
+        \item{Improved functionality of block families which stores a family of blocks for a single block and provides logic that picks the block out from the family when placed or updated.}
         \item{Worked on configuring builds for Jenkins(CloudBees Core) and publishing artifacts }
       \end{cvitems}
     }
@@ -103,12 +135,12 @@
     {Terasology} % Job title
     {Google Code-in Mentor} % Organization
     {} % Location
-    { Jan 2017 – Nov 2017} % Date(s)
+    { Jan 2017 - Nov 2017} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
         \item{Mentored over a hundred students on standard practices for software development including coding, documentation, and javadocs}
         \item {Developed tasks for students to complete that included information about how to complete the task and links to documentation to guide students. }
-        \item {Students worked on tasks that contributed work to Terasology that include: Terasology Modules, Engine, UI, User Documentation, Javadocs, research, etc ...}
+        % \item {Students worked on tasks that contributed work to Terasology that include: Terasology Modules, Engine, UI, User Documentation, Javadocs, research, etc ...}
         % \item {Reviewed work submitted by a student (code review, documentation review, javadocs, etc...)}
         %  \item { Helped students refine their work that actively improves Terasology}
       \end{cvitems}
@@ -126,7 +158,7 @@
         \item {Collaborated with a grad student on a meta study related to analyzing climate papers.}
         \item {Built tool to scrape data from Web of Science (WOS), a research paper index, and also collected data from NSF grant database}
         \item {Used dplyer and R to clean and remove duplicates from WOS along with Postgres to finalized the cleaned data. Data was plotted using matplotlib.}
-        \item {Mined general features and statistical metrics from WOS and NSF about the state of affairs in regards to climate research along with general trends in publications.}
+        \item {Mined general features and statistical metrics from WOS and NSF about the state of affairs in regard to climate research along with general trends in publications.}
       \end{cvitems}
     }
 %---------------------------------------------------------
@@ -142,7 +174,6 @@
         \item{Implemented MVVM patterns, ASP.net consumer endpoint, and repository patterns for an Sqlite backend.}
       \end{cvitems}
     }
-    
     
 
 \end{cventries}
